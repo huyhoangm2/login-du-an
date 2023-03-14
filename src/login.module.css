@@ -1,25 +1,24 @@
 .container {
+  position: absolute;
   padding: 20px;
   font-family: 'Times New Roman', Times, serif;
-  text-align: center;
-  display:flexbox;
-  background-color: #e1ddea;
+  align-items: center;
+ justify-self: center;
+  background-color:#e4f4f5 ;
   width: 440px;
-  height: 400px;
-  margin-left:525px ;
+  height: 500px;
+  right: 0%;
+  margin: 10px;
   border-radius: 15px;
-  margin-top: 130px;
+
+  text-align: center;
 }
 .h1 {
  color: #4580ed;
 text-align: center;
 margin-bottom: 50px;
 }
-.khung {
- background-color: #9bbbc6;
- height:900px;
- margin-top: 0px;
-}
+
 .field1 {
  height: 30px;
  border: 1px solid #4580ed;
@@ -44,7 +43,6 @@ margin-bottom: 50px;
  color: #fff;
  font-weight: bold;
  border: 1px solid #8663cd;
-
 }
 .error{
   color: rgb(214, 12, 12);
